@@ -15,6 +15,12 @@
 
 | Item | Details |
 |---|---|
+| Website cross-check | "Uniformed Personnel Contributing Countries by Ranking", monthly PDFs from the UN peacekeeping website (https://peacekeeping.un.org/en/troop-and-police-contributors), for June 2025, October 2025, January 2026 and February 2026 |
+| Downloaded on | 29 October 2026, by hand (the website refuses automated downloads) |
+| Terms | UN website terms of use, as above; the PDFs are not in this repository. Their SHA-256 fingerprints are listed in `code/06_crosscheck_un_website.py` |
+
+| Item | Details |
+|---|---|
 | Reimbursement rates | UN General Assembly resolutions 68/281 (30 June 2014), 72/285 (5 July 2018), 76/276 (29 June 2022) and 80/272 (30 June 2026), read from the UN Official Document System (https://documents.un.org) |
 | Table | `reference/reimbursement_rates.csv`: the rate, the date it took effect, the resolution and the paragraph that sets it |
 | Not included | The temporary US$4.90 per person per month for COVID-19 testing (resolution 76/276, para. 10), and one-off supplemental payments before 2014 |
@@ -31,6 +37,7 @@
 - `build/` is created by `code/02_build_panel.py`. It holds the full monthly dataset (see the main README).
 - `reference/reimbursement_rates.csv` is in the repository.
 - `check_report.md` is the output of `code/03_check.py`.
+- `crosscheck_un_website.md` is the output of `code/06_crosscheck_un_website.py`. The PDFs it reads go in `raw/peacekeeping_un_org/`.
 
 Fingerprints of the UN files used for this release (SHA-256):
 

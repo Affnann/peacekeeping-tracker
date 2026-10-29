@@ -98,8 +98,7 @@ Run by [`code/03_check.py`](code/03_check.py); results in [`data/check_report.md
 6. The join between the two UN files has no break: 98,194 in December 2009 and 99,943 in January 2010.
 7. Every month-to-month change of more than 5% is listed for review. The large ones match known events, such as the start of large missions in the former Yugoslavia, Cambodia and Somalia in 1992-93, and the end of the Yugoslavia mission (UNPROFOR) in December 1995.
 8. The rebuilt dataset matches this release's monthly totals exactly, so anyone rebuilding it can confirm they have the same data.
-
-The UN's peacekeeping website (peacekeeping.un.org), which publishes the same figures, could not be reached when this was built, so it was not used as an extra cross-check.
+9. **Cross-check against the UN peacekeeping website.** The monthly ranking reports on peacekeeping.un.org were compared country by country for June 2025, October 2025, January 2026 and February 2026, covering the period before, during and after the cut. Every country's total and every month's grand total match exactly (for example 61,299 in June 2025 and 47,298 in February 2026). Run by [`code/06_crosscheck_un_website.py`](code/06_crosscheck_un_website.py); results in [`data/crosscheck_un_website.md`](data/crosscheck_un_website.md).
 
 ## Reproduce it
 
@@ -115,6 +114,8 @@ python code/05_figures.py
 ```
 
 Step 3 is run after step 4 because its last check compares your rebuilt data with the published monthly totals.
+
+Optional: `python code/06_crosscheck_un_website.py` runs the website cross-check. The website refuses automated downloads, so its PDFs must first be saved by hand (instructions at the top of the script). It also needs Poppler (`pdftotext`).
 
 ## Folders
 
