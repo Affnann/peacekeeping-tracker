@@ -1,5 +1,7 @@
 # peacekeeping-tracker
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23752306.svg)](https://doi.org/10.5281/zenodo.23752306)
+
 Published by [Mercenomics](https://mercenomics.org), an independent data archive on the business of force for hire.
 
 A tracker of who supplies the soldiers and police in United Nations missions, month by month from November 1990 to July 2026: how many each country sends, how Bangladesh's place has changed, what happened in the 2025-26 cut, and roughly how much money the UN owes countries for their troops.
@@ -137,4 +139,9 @@ The designations used and the presentation of material on the map do not imply t
 
 ## Cite
 
-See [`CITATION.cff`](CITATION.cff).
+Azom, Kazi Affnann (2026). *peacekeeping-tracker: monthly UN uniformed personnel contributions by country, 1990-2026* (Version v1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23752307
+
+- This version (v1.0.0): [10.5281/zenodo.23752307](https://doi.org/10.5281/zenodo.23752307)
+- All versions (always points to the latest): [10.5281/zenodo.23752306](https://doi.org/10.5281/zenodo.23752306)
+
+Please also cite the UN as the source of the personnel figures. See also [`CITATION.cff`](CITATION.cff).

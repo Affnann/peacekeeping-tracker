@@ -8,6 +8,11 @@ authors:
     affiliation: "Mercenomics"
 date-released: "2026-10-29"
 version: "1.0.0"
+doi: "10.5281/zenodo.23752307"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23752306"
+    description: "Concept DOI for all versions"
 repository-code: "https://github.com/Affnann/peacekeeping-tracker"
 license: MIT
 keywords:
