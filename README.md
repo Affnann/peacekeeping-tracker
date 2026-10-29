@@ -139,7 +139,7 @@ The designations used and the presentation of material on the map do not imply t
 
 ## Cite
 
-Azom, Kazi Affnann (2026). *peacekeeping-tracker: monthly UN uniformed personnel contributions by country, 1990-2026* (Version v1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23752307
+Azom, Kazi Affnann (2026). *peacekeeping-tracker: monthly UN uniformed personnel contributions by country, 1990-2026* (Version v1.0.0) [Software]. Mercenomics. https://doi.org/10.5281/zenodo.23752307
 
 - This version (v1.0.0): [10.5281/zenodo.23752307](https://doi.org/10.5281/zenodo.23752307)
 - All versions (always points to the latest): [10.5281/zenodo.23752306](https://doi.org/10.5281/zenodo.23752306)
