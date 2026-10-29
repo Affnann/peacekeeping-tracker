@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code or these tables, please cite it as below."
+title: "peacekeeping-tracker: monthly UN uniformed personnel contributions by country, 1990-2026"
+authors:
+  - family-names: "Azom"
+    given-names: "Kazi Affnann"
+    orcid: "https://orcid.org/0009-0001-5998-7642"
+    affiliation: "Mercenomics"
+date-released: "2026-10-29"
+version: "1.0.0"
+repository-code: "https://github.com/Affnann/peacekeeping-tracker"
+license: MIT
+keywords:
+  - UN peacekeeping
+  - troop contributions
+  - Bangladesh
+  - reimbursement
+  - security outsourcing
