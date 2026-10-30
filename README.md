@@ -128,9 +128,9 @@ Optional: `python code/06_crosscheck_un_website.py` runs the website cross-check
 | `tables/` | Summary tables |
 | `figures/` | Charts and the map |
 
-## Related research
+## Used in
 
-This data will be used in a working paper, now in preparation, on which contributing countries bore the 2025-26 reduction in UN peacekeeping.
+Azom, Kazi Affnann (2026). "The 2025–26 UN Peacekeeping Cuts and the Countries That Supply the Troops: Evidence from Monthly Deployment Data." Preprint. Zenodo. https://doi.org/10.5281/zenodo.23801875 (replication package: https://doi.org/10.5281/zenodo.23801845)
 
 ## Sources and license
 
